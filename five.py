@@ -115,7 +115,8 @@ Test=type('Test',(Foe,),{'a':45,'add_attribute':add_attribute })#without () in a
 # after writing the name of the parent class i.e. (classname,) 
 #this line of code is equivalent to the code above, for creating the class Test from line 103 and 104
 t=Test()
-t.greet='Namaste'#we can define attribute outside of the class like regular classes
+t.greet='Namaste
+#we can define attribute outside of the class like regular classes
 print(t.a)
 print(t.greet)
 print(t.show())
@@ -146,3 +147,4 @@ class Cat(metaclass=Meta):
 #c=Cat() this line of code is optional 
 c=Cat()
 print(c.Hi())      
+print("hello mangale")
